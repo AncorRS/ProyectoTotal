@@ -119,7 +119,9 @@ public class AdminController {
 //	  @PreAuthorize("hasRole('MODERATOR')")
 	public User getEmpleado() {
 		return userRepository.findById((long) 1).orElse(null);
-//		return "HOLA PROIBANDO";
+//		return "HOLA PROIBANDO ";
+//		APARECE EN 001 ";
+//		APARECE EN MASTER ";
 	}
 	
 	
